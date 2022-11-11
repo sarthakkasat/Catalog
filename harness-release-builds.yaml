@@ -5,9 +5,10 @@ metadata:
   description: Artist Lookup
   annotations:
     harnessci/project-slug: github/sarthakkasat
-    accountIdentifier: wFHXHD0RRQWoO8tIZT5YVw
-    orgIdentifier: Harness
-    projectIdentifier: RELEASEBUILDS
+    harness.io/cicd-accountIdentifier: wFHXHD0RRQWoO8tIZT5YVw
+    harness.io/cicd-orgIdentifier: Harness
+    harness.io/cicd-projectIdentifier: RELEASEBUILDS
+    harness.io/cd-serviceId: nextgence
   tags:
     - java
     - data

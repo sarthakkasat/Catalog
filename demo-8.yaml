@@ -3,11 +3,6 @@ kind: Component
 metadata:
   namespace: default
   annotations:
-    backstage.io/managed-by-location: url:https://github.com/sandeepa-kv-jois/harness-core-ui/tree/develop/ng-ui-latest1.yaml
-    backstage.io/managed-by-origin-location: url:https://github.com/sandeepa-kv-jois/harness-core-ui/blob/develop/ng-ui-latest1.yaml
-    backstage.io/view-url: https://github.com/sandeepa-kv-jois/harness-core-ui/tree/develop/ng-ui-latest1.yaml
-    backstage.io/edit-url: https://github.com/sandeepa-kv-jois/harness-core-ui/edit/develop/ng-ui-latest1.yaml
-    backstage.io/source-location: url:https://github.com/sandeepa-kv-jois/harness-core-ui/tree/develop/
     harness.io/cicd-accountId: vpCkHKsDSxK9_KYfjCTMKA
     harness.io/cicd-orgId: default
     harness.io/cicd-projectId: UICore

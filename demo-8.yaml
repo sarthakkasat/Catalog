@@ -1,0 +1,51 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: default
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/sandeepa-kv-jois/harness-core-ui/tree/develop/ng-ui-latest1.yaml
+    backstage.io/managed-by-origin-location: url:https://github.com/sandeepa-kv-jois/harness-core-ui/blob/develop/ng-ui-latest1.yaml
+    backstage.io/view-url: https://github.com/sandeepa-kv-jois/harness-core-ui/tree/develop/ng-ui-latest1.yaml
+    backstage.io/edit-url: https://github.com/sandeepa-kv-jois/harness-core-ui/edit/develop/ng-ui-latest1.yaml
+    backstage.io/source-location: url:https://github.com/sandeepa-kv-jois/harness-core-ui/tree/develop/
+    harness.io/cicd-accountId: vpCkHKsDSxK9_KYfjCTMKA
+    harness.io/cicd-orgId: default
+    harness.io/cicd-projectId: UICore
+  name: ng-ui
+  tags:
+    - javascript
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+  uid: 0ea32952-a2d4-4beb-8c42-a27ea7030be4
+  etag: 5f16c1607490d32d7de738b094f5b1d0bfecbb1b
+relations:
+  - type: ownedBy
+    targetRef: group:default/ui-team
+    target:
+      kind: group
+      namespace: default
+      name: ui-team
+spec:
+  type: service
+  lifecycle: prod
+  owner: ui-team
